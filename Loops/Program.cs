@@ -20,13 +20,21 @@ namespace Loops
             }
             Console.WriteLine("Now number is {0}", number);
             */
-
+            /*
             int number = 10;
             do
             {
                 Console.WriteLine(number);
                 number--;
             } while (number >= 0);
+            */
+
+            string[] students = new string[3] {"Engin","Derin","Salih"};
+            foreach(var student in students)
+            {
+                Console.WriteLine(student);
+            }
+
             Console.ReadLine();
         }
         private static void ForLoop()

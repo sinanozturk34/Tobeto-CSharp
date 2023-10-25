@@ -13,6 +13,7 @@ namespace TypesAndVariables
             //Values Types
             // Console.WriteLine("Hello World!");
             double number5 = 10.4;
+            decimal number6 = 10.4m;
             char character = 'A';
             string city = "Ankara";
             bool condition = false; //deger tipi

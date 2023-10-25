@@ -15,13 +15,18 @@ namespace Methods
             Add();
             Add();
             var result = Add2(4);  */
-
+            /*
             int number1 = 20;
             int number2 = 100;
             var result2 = Add3(out number1, number2);//ref:referans tip olur ve deger degişir 30 olur
             Console.WriteLine(result2);//degişken 30 oluyor
             Console.WriteLine(number1);//deger tipler: 20 oluyor çıktı
             //Console.WriteLine(result);//ekrana yazmak ıcın degısken atadık
+            */
+
+
+            Console.WriteLine(Multiply(2, 4));
+            Console.WriteLine(Multiply(2, 4,5));
             Console.ReadLine();
         }
         static void Add() //metot
@@ -38,6 +43,14 @@ namespace Methods
         {
             number1 = 30;
             return number1 + number2;
+        }
+        static int Multiply(int number1,int number2)
+        {
+            return number1 * number2;
+        }
+        static int Multiply(int number1, int number2,int number3)
+        {
+            return number1 * number2 * number3;
         }
     }
 }

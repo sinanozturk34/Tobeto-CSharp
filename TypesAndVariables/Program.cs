@@ -21,6 +21,9 @@ namespace TypesAndVariables
             short number3 = 32767;
             int number1 = 2147483647;
             long number2= 9223372036854775807;
+            var number7 = 10;//int
+            number7 = 'A';
+            //number7 = "A"; //string
             
             //integer veri tipi
             Console.WriteLine("Number1 is {0}",number1);
@@ -32,6 +35,8 @@ namespace TypesAndVariables
             Console.WriteLine("Number4 is {0}", number4);
             //double veri tipi
             Console.WriteLine("Number5 is {0}", number5);
+            //var veri tipi
+            Console.WriteLine("Number7 is {0}", number7);
             //char veri tipi
             Console.WriteLine("Character4 is {0}", (int)character);//sayı dönüşür int ile
             //enum-tip dönüşümleri

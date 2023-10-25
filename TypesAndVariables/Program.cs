@@ -12,6 +12,8 @@ namespace TypesAndVariables
         {
             //Values Types
             // Console.WriteLine("Hello World!");
+            char character = 'A';
+            string city = "Ankara";
             bool condition = false; //deger tipi
             byte number4 = 255;
             short number3 = 32767;
@@ -23,9 +25,11 @@ namespace TypesAndVariables
             Console.WriteLine("Number2 is {0}", number2);
             //short veri tipi
             Console.WriteLine("Number3 is {0}", number3);
-            //byte 
+            //byte veri tipi
             Console.WriteLine("Number4 is {0}", number4);
-
+            //char veri tipi
+            Console.WriteLine("Character4 is {0}", (int)character);//sayı dönüşür int ile
+           
             Console.ReadLine();
         }
     }

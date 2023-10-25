@@ -16,11 +16,12 @@ namespace TypesAndVariables
             decimal number6 = 10.4m;
             char character = 'A';
             string city = "Ankara";
-            bool condition = false; //deger tipi
+            bool condition = false; //deger tipleri
             byte number4 = 255;
             short number3 = 32767;
             int number1 = 2147483647;
             long number2= 9223372036854775807;
+            
             //integer veri tipi
             Console.WriteLine("Number1 is {0}",number1);
             //long veri tipi
@@ -33,9 +34,13 @@ namespace TypesAndVariables
             Console.WriteLine("Number5 is {0}", number5);
             //char veri tipi
             Console.WriteLine("Character4 is {0}", (int)character);//sayı dönüşür int ile
-
-           
+            //enum-tip dönüşümleri
+            Console.WriteLine((int)Days.Friday);
             Console.ReadLine();
         }
+    }
+    enum Days
+    {
+        Monday=10,Tuesday=20,Wednesday=30,Thursday,Friday,Saturday,Sunday
     }
 }

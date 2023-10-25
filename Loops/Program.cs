@@ -11,6 +11,7 @@ namespace Loops
         static void Main(string[] args)
         {
             //ForLoop();
+            /*
             int number = 100;
             while (number>=0)
             {
@@ -18,6 +19,14 @@ namespace Loops
                 number--;
             }
             Console.WriteLine("Now number is {0}", number);
+            */
+
+            int number = 10;
+            do
+            {
+                Console.WriteLine(number);
+                number--;
+            } while (number >= 0);
             Console.ReadLine();
         }
         private static void ForLoop()

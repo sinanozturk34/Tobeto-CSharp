@@ -13,7 +13,7 @@ namespace Methods
             Add();//metot çagırdık
             Add();
             Add();
-            var result = Add2(20,30);
+            var result = Add2(4);
             Console.WriteLine(result);//ekrana yazmak ıcın degısken atadık
             Console.ReadLine();
         }
@@ -21,7 +21,7 @@ namespace Methods
         {
             Console.WriteLine("Added!!!");
         }
-        static int Add2(int number1, int number2)
+        static int Add2(int x,int number1=20, int number2=30) //default degerleri metot sonunda olur,sadece ilk degere deger veremezsin
         {//metot hesaplama yaptık
             var result = number1 + number2;
             return result;

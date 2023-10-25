@@ -18,7 +18,7 @@ namespace Methods
 
             int number1 = 20;
             int number2 = 100;
-            var result2 = Add3(ref number1, number2);//ref:referans tip olur ve deger degişir 30 olur
+            var result2 = Add3(out number1, number2);//ref:referans tip olur ve deger degişir 30 olur
             Console.WriteLine(result2);//degişken 30 oluyor
             Console.WriteLine(number1);//deger tipler: 20 oluyor çıktı
             //Console.WriteLine(result);//ekrana yazmak ıcın degısken atadık
@@ -34,7 +34,7 @@ namespace Methods
             return result;
             //return number1 + number2;
         }
-        static int Add3(ref int number1,int number2)
+        static int Add3(out int number1,int number2)
         {
             number1 = 30;
             return number1 + number2;

@@ -12,6 +12,7 @@ namespace TypesAndVariables
         {
             //Values Types
             // Console.WriteLine("Hello World!");
+            bool condition = false; //deger tipi
             byte number4 = 255;
             short number3 = 32767;
             int number1 = 2147483647;
@@ -24,6 +25,7 @@ namespace TypesAndVariables
             Console.WriteLine("Number3 is {0}", number3);
             //byte 
             Console.WriteLine("Number4 is {0}", number4);
+
             Console.ReadLine();
         }
     }

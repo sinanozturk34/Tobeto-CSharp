@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strings", "Strings\Strings.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{22F1FA32-DDA1-47F0-BEA6-09BD40885966}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "intro", "..\..\Tobeto Ders\intro\intro.csproj", "{6D1E0E0F-A3C7-4326-B837-1C38183FB764}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{22F1FA32-DDA1-47F0-BEA6-09BD40885966}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22F1FA32-DDA1-47F0-BEA6-09BD40885966}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22F1FA32-DDA1-47F0-BEA6-09BD40885966}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D1E0E0F-A3C7-4326-B837-1C38183FB764}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D1E0E0F-A3C7-4326-B837-1C38183FB764}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D1E0E0F-A3C7-4326-B837-1C38183FB764}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D1E0E0F-A3C7-4326-B837-1C38183FB764}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

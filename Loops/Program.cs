@@ -11,24 +11,16 @@ namespace Loops
         static void Main(string[] args)
         {
             //ForLoop();
-            /*
-            int number = 100;
-            while (number>=0)
-            {
-                Console.WriteLine(number);
-                number--;
-            }
-            Console.WriteLine("Now number is {0}", number);
-            */
+            //DoWhile();
 
             /*
-            int number = 10;
-            do
-            {
-                Console.WriteLine(number);
-                number--;
-            } while (number >= 0);
-            */
+              int number = 10;
+              do
+              {
+                  Console.WriteLine(number);
+                  number--;
+              } while (number >= 0);
+           */
 
             /*
             string[] students = new string[3] {"Engin","Derin","Salih"};
@@ -37,6 +29,13 @@ namespace Loops
                 Console.WriteLine(student);
             }
             */
+            //----------------------------------
+
+            for (int i = 100; i >= 0; i = i - 2)
+            {
+                Console.WriteLine(i);
+            }
+            Console.WriteLine("Finished!");
             //---------------------------------
             //Asal Sayı
             if (IsPrimeNumber(6))
@@ -49,6 +48,17 @@ namespace Loops
             }
 
             Console.ReadLine();
+        }
+
+        private static void DoWhile()
+        {
+            int number = 100;
+            while (number >= 0)
+            {
+                Console.WriteLine(number);
+                number--;
+            }
+            Console.WriteLine("Now number is {0}", number);
         }
 
         private static bool IsPrimeNumber(int number)
@@ -69,7 +79,7 @@ namespace Loops
 
 
 
-
+        /*
         private static void ForLoop()
         {
             for (int i = 100; i >= 0; i = i - 2) 
@@ -79,5 +89,6 @@ namespace Loops
             Console.WriteLine("Finished!");
 
         }
+        */
     }
 }

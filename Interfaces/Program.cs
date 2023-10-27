@@ -18,9 +18,27 @@ namespace Interfaces
             //manager.Add(new Customer { Id = 1, FirstName = "Engin", LastName = "Demiroğ", Address = "Ankara" });
 
             //IPerson person = new Customer();
+            //Demo();
+
+            ICustomerDal[] customerDals = new ICustomerDal[3]
+            {
+                new SqlServerCustomerDal(),
+                new OracleCustomerDal(),
+                new MySqlCustomerDal()
+            };
+
+            foreach(var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
+
+            Console.ReadLine();
+        }
+
+        private static void Demo()
+        {
             CustomerManager customerManager = new CustomerManager();
             customerManager.Add(new SqlServerCustomerDal());
-            Console.ReadLine();
         }
 
         private static void InterfacesIntro()

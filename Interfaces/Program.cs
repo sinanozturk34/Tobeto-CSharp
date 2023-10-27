@@ -11,6 +11,20 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
+            //InterfacesIntro();
+
+            // manager.Add(customer);
+
+            //manager.Add(new Customer { Id = 1, FirstName = "Engin", LastName = "Demiroğ", Address = "Ankara" });
+
+            //IPerson person = new Customer();
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new SqlServerCustomerDal());
+            Console.ReadLine();
+        }
+
+        private static void InterfacesIntro()
+        {
             PersonManager manager = new PersonManager();
             Customer customer = new Customer
             {
@@ -32,12 +46,6 @@ namespace Interfaces
             };
             manager.Add(student);
             manager.Add(customer);
-
-           // manager.Add(customer);
-
-            //manager.Add(new Customer { Id = 1, FirstName = "Engin", LastName = "Demiroğ", Address = "Ankara" });
-
-            Console.ReadLine();
         }
     }
 
